@@ -81,7 +81,7 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2 style={{ textAlign: "center" }}>Projects</h2>
+            <h2 style={{ textAlign: "center" }}>Portfolio</h2>
             <p style={{ textAlign: "center" }}>
               I have always been a team player in the workplace and the bootcamp
               has only re-encforced those qualities. I have loved getting to

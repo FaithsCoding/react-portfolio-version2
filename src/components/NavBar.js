@@ -68,7 +68,7 @@ export const NavBar = () => {
                 }`}
                 onClick={() => onUpdateActiveLink("projects")}
               >
-                Projects
+                Portfolio
               </Nav.Link>
               <Nav.Link
                 as={HashLink}
@@ -79,6 +79,16 @@ export const NavBar = () => {
                 onClick={() => onUpdateActiveLink("contactme")}
               >
                 Contact Me
+              </Nav.Link>
+              <Nav.Link
+                as={HashLink}
+                to="/#resume"
+                className={`nav-link ${
+                  activeLink === "resume" ? "active" : ""
+                }`}
+                onClick={() => onUpdateActiveLink("resume")}
+              >
+                Resume
               </Nav.Link>
             </Nav>
             <span className="navbar-text">

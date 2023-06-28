@@ -7,7 +7,7 @@ const Resume = () => {
     process.env.PUBLIC_URL + "/assets/resume/Faith_Meades_CV.pdf";
 
   return (
-    <section className="resume">
+    <section className="resume" id="resume">
       <Container>
         <div className="resume-section">
           <h2>Resume</h2>
