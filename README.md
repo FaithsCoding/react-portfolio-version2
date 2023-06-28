@@ -11,7 +11,7 @@ This is a single page application that has been created for my week 20 assignmen
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
-- [Demo] (#Demo)
+- [Demo](#demo)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
@@ -39,6 +39,6 @@ Faith Meades
 
 ## Questions
 
-Username: FaithsCoding,
-URL: www.github.com/react-portfolio-version2,
-You can send me any questions via email: faithscoding@outlook.com
+- Username: FaithsCoding
+- [GitHub Repo](www.github.com/react-portfolio-version2)
+- You can send me any questions via email: faithscoding@outlook.com

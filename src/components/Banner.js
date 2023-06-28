@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
+// The Banner component displays the banner section
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -16,16 +17,19 @@ export const Banner = () => {
   ];
   const period = 2000;
 
+  // Run the ticker function at regular intervals
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
     }, delta);
 
+    // Clean up the interval on component unmount
     return () => {
       clearInterval(ticker);
     };
   }, [text]);
 
+  // Ticker function that updates the text
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
@@ -57,7 +61,9 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
+          {/* Left column */}
           <Col xs={12} md={6} xl={7}>
+            {/* Track visibility */}
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -86,7 +92,9 @@ export const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
+          {/* Right column */}
           <Col xs={12} md={6} xl={5}>
+            {/* Track visibility */}
             <TrackVisibility>
               {({ isVisible }) => (
                 <div

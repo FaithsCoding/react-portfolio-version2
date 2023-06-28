@@ -4,7 +4,7 @@ import flowerPic from "../assets/img/banner-bg.png";
 import { Formik } from "formik";
 import * as Yup from "yup";
 
-const Contact = () => {
+export const Contact = () => {
   const validationSchema = Yup.object().shape({
     firstName: Yup.string().required("First name is required"),
     lastName: Yup.string().required("Last name is required"),
@@ -151,4 +151,3 @@ const Contact = () => {
   );
 };
 
-export default Contact;

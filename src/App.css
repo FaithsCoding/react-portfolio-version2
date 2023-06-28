@@ -221,7 +221,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 /***About Me CSS***/
-.skill-bx {
+.aboutme-bx {
     border-radius: 64px;
     border: solid white;
     text-align: center;
@@ -229,16 +229,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     box-sizing: border-box;
 }
 
-.skill h2 {
+.aboutme h2 {
     font-size: 45px;
     font-weight: 500;
 }
 
-.skill p {
+.aboutme p {
     font-size: 18px;
 }
 
-.skill-slider {
+.aboutme-slider {
     width: 100%;
     padding: 50px;
     position: relative;
@@ -248,37 +248,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .project {
     padding: 80px 0;
     position: relative;
-  }
-  
-  /**Contact CSS**/
-  .contact {
+}
+
+/**Contact CSS**/
+.contact {
     padding: 0 0 100px 0;
-  }
- 
-  .contact img {
-   border-radius: 10%;
-  }
-  
-  .contact h2 {
+}
+
+.contact img {
+    border-radius: 10%;
+}
+
+.contact h2 {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 30px;
-  }
-  
-  /**Footer**/
-  .footer {
+}
+
+/**Footer**/
+.footer {
     padding: 100px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  
-
-
-  
-
-
-
-  
-  
-
+}

@@ -1,13 +1,15 @@
+/* Styling for the body element */
 body {
-  margin: 0;
+  margin: 0;  /* Removes the default margin around the body */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif;  /* Specifies a list of fonts to be applied to the text in the body; the browser will use the first available font in this list */
+  -webkit-font-smoothing: antialiased;  /* Enhances the smoothness of the text on Mac OS X and some versions of Android */
+  -moz-osx-font-smoothing: grayscale;  /* Enhances the smoothness of the text on Firefox */
 }
 
+/* Styling for the code elements */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace;  /* Specifies a list of fonts to be applied to the text in code elements; the browser will use the first available font in this list */
 }

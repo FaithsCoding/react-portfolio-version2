@@ -8,6 +8,7 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
+// The NavBar component displays the navigation bar
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -32,8 +33,10 @@ export const NavBar = () => {
 
   return (
     <Router>
+      {/* Navigation bar */}
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
+          {/* Logo */}
           <Navbar.Brand as={Link} to="/">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
@@ -41,6 +44,7 @@ export const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
+            {/* Navigation links */}
             <Nav className="ms-auto">
               <Nav.Link
                 as={HashLink}
@@ -91,6 +95,7 @@ export const NavBar = () => {
                 Resume
               </Nav.Link>
             </Nav>
+            {/* Social media icons */}
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/faith-meades-a66b20276/">

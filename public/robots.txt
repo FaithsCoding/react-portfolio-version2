@@ -1,3 +1,8 @@
+The line starting with a # indicates a comment in the robots.txt file. It provides a URL reference to the official documentation of the robots.txt standard.
+
+User-agent: * specifies that the following directives apply to all web robots (crawlers).
+
+Disallow: indicates that no specific directories or pages are disallowed. This means that all parts of the website are accessible to web robots.
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:

@@ -9,7 +9,9 @@ import projectImage4 from "../assets/img/project-img4.png";
 import projectImage5 from "../assets/img/project-img5.png";
 import projectImage6 from "../assets/img/project-img6.png";
 
+// The Projects component displays a carousel of project cards
 export const Projects = () => {
+  // Array of project objects
   const projects = [
     {
       title: "WeatherIGo",
@@ -61,6 +63,7 @@ export const Projects = () => {
     },
   ];
 
+  // Responsive settings for the carousel
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -81,7 +84,9 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
+            {/* Section heading */}
             <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+            {/* Section description */}
             <p style={{ textAlign: "center" }}>
               I have always been a team player in the workplace and the bootcamp
               has only re-encforced those qualities. I have loved getting to
@@ -95,6 +100,7 @@ export const Projects = () => {
         </Row>
         <Row>
           <Col>
+            {/* Carousel component */}
             <Carousel
               responsive={responsive}
               infinite
@@ -104,12 +110,14 @@ export const Projects = () => {
               slidesToSlide={1}
               swipeable
             >
+              {/* Map through the projects array and render a Card component for each project */}
               {projects.map((project, index) => (
                 <Card key={index}>
                   <Card.Img variant="top" src={project.imageUrl} />
                   <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>
+                    {/* Deployed button */}
                     <Button
                       variant="primary"
                       href={project.url}
@@ -122,6 +130,7 @@ export const Projects = () => {
                     >
                       Deployed
                     </Button>
+                    {/* Github repository button */}
                     <Button
                       variant="primary"
                       href={project.github}

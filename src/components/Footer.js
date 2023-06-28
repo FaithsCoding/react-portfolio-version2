@@ -2,8 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import Resume from "./Resume";
+import { Resume } from "./Resume";
 
+// The Footer component displays the footer section
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -24,9 +25,7 @@ export const Footer = () => {
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <p>
-              Made with love by FaithsCoding 2023.
-            </p>
+            <p>Made with love by FaithsCoding 2023.</p>
           </Col>
         </Row>
       </Container>

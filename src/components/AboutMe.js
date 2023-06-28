@@ -6,6 +6,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
+// The AboutMe component displays the about me section
 export const AboutMe = () => {
   const responsive = {
     superLargeDesktop: {
@@ -27,12 +28,14 @@ export const AboutMe = () => {
   };
 
   return (
-    <section className="skill" id="aboutme">
+    <section className="aboutme" id="aboutme">
       <Container>
         <Row>
           <Col md={12}>
-            <div className="skill-bx wow zoomIn">
+            {/* About me content */}
+            <div className="aboutme-bx wow zoomIn">
               <div className="d-flex align-items-center">
+                {/* Profile picture */}
                 <div className="profile-picture">
                   <Image
                     src={profilePic}
@@ -41,21 +44,23 @@ export const AboutMe = () => {
                     style={{ width: "200px", height: "200px" }}
                   />
                 </div>
+                {/* About me text */}
                 <div className="ms-3">
                   <h2>About Me</h2>
                   <p>
                     I started my adventure into the coding world in 2020 whereby
                     I began designing websites using templates. I also began a
-                    buisness called Designerr. which focused on websites and
+                    business called Designerr. which focused on websites and
                     creating branding. <br /> After a successful start, I wanted
                     to learn more about how things worked and how I could
-                    improve myself and my buisness therefore I enrolled on the
-                    Full Stack Web Development bootcamp. I qualify in July 2023
-                    and would love to gain more experience within the work place
+                    improve myself and my business, therefore I enrolled in the
+                    Full Stack Web Development bootcamp. I will graduate in July
+                    2023 and would love to gain more experience in the workplace
                     in this industry.
                   </p>
                 </div>
               </div>
+              {/* Skill carousel */}
               <Carousel
                 responsive={responsive}
                 infinite={true}
