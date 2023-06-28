@@ -1,34 +1,36 @@
 {
   "files": {
-    "main.css": "/react-portfolio-version2/static/css/main.e25121e0.css",
-    "main.js": "/react-portfolio-version2/static/js/main.b585055e.js",
-    "static/js/787.fb771931.chunk.js": "/react-portfolio-version2/static/js/787.fb771931.chunk.js",
+    "main.css": "/react-portfolio-version2/static/css/main.78538ab0.css",
+    "main.js": "/react-portfolio-version2/static/js/main.4277098c.js",
+    "static/js/787.0a37d48a.chunk.js": "/react-portfolio-version2/static/js/787.0a37d48a.chunk.js",
+    "static/media/banner-bg.png": "/react-portfolio-version2/static/media/banner-bg.6c377d6cb1230da033c1.png",
     "static/media/project-img2.png": "/react-portfolio-version2/static/media/project-img2.ee3f9863b05d6541250a.png",
     "static/media/project-img1.png": "/react-portfolio-version2/static/media/project-img1.7c85930407afd18af5fb.png",
     "static/media/project-img3.png": "/react-portfolio-version2/static/media/project-img3.9d85767acf2df027073a.png",
+    "static/media/project-img5.png": "/react-portfolio-version2/static/media/project-img5.bdc0b3932310509632f5.png",
     "static/media/CentraNo2-Bold.ttf": "/react-portfolio-version2/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/react-portfolio-version2/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/FMPROFILEPIC.png": "/react-portfolio-version2/static/media/FMPROFILEPIC.cc24ca019fa32ea51bdf.png",
     "static/media/CentraNo2-Book.ttf": "/react-portfolio-version2/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/contact-img.svg": "/react-portfolio-version2/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/project-img4.png": "/react-portfolio-version2/static/media/project-img4.38fe3e632c654dd5bfdb.png",
+    "static/media/project-img6.png": "/react-portfolio-version2/static/media/project-img6.912da9fede464eaae2d2.png",
     "static/media/revicons.eot": "/react-portfolio-version2/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-portfolio-version2/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/react-portfolio-version2/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/meter2.svg": "/react-portfolio-version2/static/media/meter2.63c0c931780faf84632adade0f986275.svg",
     "static/media/meter1.svg": "/react-portfolio-version2/static/media/meter1.117d250cb8051d1f890b5be13e37b33f.svg",
     "static/media/meter3.svg": "/react-portfolio-version2/static/media/meter3.b66932a9e7e60d9c80a82ace4329c8cf.svg",
-    "static/media/nav-icon3.svg": "/react-portfolio-version2/static/media/nav-icon3.4903ab886a3dde61b70ff771be90c372.svg",
+    "static/media/nav-icon3.svg": "/react-portfolio-version2/static/media/nav-icon3.76cc6c1aeb3254476dfcb0fce67df45e.svg",
+    "static/media/nav-icon2.svg": "/react-portfolio-version2/static/media/nav-icon2.f06687d41f2541065ac28354ce11f4a1.svg",
     "index.html": "/react-portfolio-version2/index.html",
-    "static/media/nav-icon1.svg": "/react-portfolio-version2/static/media/nav-icon1.2704816e1012e28e89903e43382014bc.svg",
-    "static/media/arrow2.svg": "/react-portfolio-version2/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
-    "static/media/arrow1.svg": "/react-portfolio-version2/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "static/media/nav-icon2.svg": "/react-portfolio-version2/static/media/nav-icon2.bb443a667df95e8dfec567781c568c23.svg",
+    "static/media/nav-icon1.svg": "/react-portfolio-version2/static/media/nav-icon1.9f09419940e80957a8b2196bf86cd41c.svg",
     "static/media/logo.svg": "/react-portfolio-version2/static/media/logo.fe4762ba483432976a3a5579424ada9b.svg",
-    "main.e25121e0.css.map": "/react-portfolio-version2/static/css/main.e25121e0.css.map",
-    "main.b585055e.js.map": "/react-portfolio-version2/static/js/main.b585055e.js.map",
-    "787.fb771931.chunk.js.map": "/react-portfolio-version2/static/js/787.fb771931.chunk.js.map"
+    "main.78538ab0.css.map": "/react-portfolio-version2/static/css/main.78538ab0.css.map",
+    "main.4277098c.js.map": "/react-portfolio-version2/static/js/main.4277098c.js.map",
+    "787.0a37d48a.chunk.js.map": "/react-portfolio-version2/static/js/787.0a37d48a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e25121e0.css",
-    "static/js/main.b585055e.js"
+    "static/css/main.78538ab0.css",
+    "static/js/main.4277098c.js"
   ]
 }
