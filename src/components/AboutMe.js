@@ -4,7 +4,7 @@ import meter3 from "../assets/img/meter3.svg";
 import profilePic from "../assets/img/FMPROFILEPIC.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 export const AboutMe = () => {
   const responsive = {
@@ -34,7 +34,12 @@ export const AboutMe = () => {
             <div className="skill-bx wow zoomIn">
               <div className="d-flex align-items-center">
                 <div className="profile-picture">
-                  <img src={profilePic} alt="Profile" className="img-fluid" />
+                  <Image
+                    src={profilePic}
+                    alt="Profile"
+                    rounded
+                    style={{ width: "200px", height: "200px" }}
+                  />
                 </div>
                 <div className="ms-3">
                   <h2>About Me</h2>
