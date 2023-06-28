@@ -89,11 +89,8 @@ export const NavBar = () => {
                 <a href="https://github.com/FaithsCoding">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="">
-                  <img
-                    src={navIcon3}
-                    alt="https://www.instagram.com/designerrprojects/?hl=en-gb"
-                  />
+                <a href="https://www.instagram.com/designerrprojects/?hl=en-gb">
+                  <img src={navIcon3} alt="" />
                 </a>
               </div>
             </span>

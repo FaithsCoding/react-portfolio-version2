@@ -39,9 +39,15 @@ export const AboutMe = () => {
                 <div className="ms-3">
                   <h2>About Me</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.<br /> Lorem Ipsum has been the industry's standard
-                    dummy text.
+                    I started my adventure into the coding world in 2020 whereby
+                    I began designing websites using templates. I also began a
+                    buisness called Designerr. which focused on websites and
+                    creating branding. <br /> After a successful start, I wanted
+                    to learn more about how things worked and how I could
+                    improve myself and my buisness therefore I enrolled on the
+                    Full Stack Web Development bootcamp. I qualify in July 2023
+                    and would love to gain more experience within the work place
+                    in this industry.
                   </p>
                 </div>
               </div>
@@ -52,19 +58,19 @@ export const AboutMe = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>React</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>NoSQL</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <h5>Node</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>SQL</h5>
                 </div>
               </Carousel>
             </div>

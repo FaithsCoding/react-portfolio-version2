@@ -13,42 +13,48 @@ export const Projects = () => {
   const projects = [
     {
       title: "WeatherIGo",
-      description: "This was an app created for our first group project.",
+      description:
+        "This app was created as part of my first group project. This app was designed to allow the user to search an event they would like to attend and find out what the weather would be (and yes, the pun 'whether(Weather) I go' was intended). This app challenged us to use various API's aswell as using new styling tools.",
       imageUrl: projectImage1,
       url: "https://faithscoding.github.io/weather-i-go/",
       github: "https://github.com/FaithsCoding/weather-i-go",
     },
     {
       title: "The Sequel",
-      description: "This was an app created for our second group project.",
+      description:
+        "This was created as part of our second group project. We took an already exisiting idea and improved it. We applied a lot of CRUD operations as well as using API's and new front end framework. We also incoporated a lot of node as well as SQL databases to run the app and store data.",
       imageUrl: projectImage2,
       url: "https://the-movie-sequel.herokuapp.com/",
       github: "https://github.com/Iman-Jama/movie-part2",
     },
     {
       title: "Developer Blog",
-      description: "This was an app created for one of my assignments.",
+      description:
+        "I created the developer blog app for one of my indidvual assignments. I used bootstrap for the styling and SQL for my back end. ",
       imageUrl: projectImage3,
       url: "https://faithscodingblog.herokuapp.com/",
       github: "https://github.com/FaithsCoding/Developer-Blog",
     },
     {
       title: "Weather Dashboard",
-      description: "This was an app created for our first group project.",
+      description:
+        "I created the weather dashboard for one of my individual assignments. This encouraged me to apply my knowledge of third party api's. ",
       imageUrl: projectImage4,
       url: "https://faithscoding.github.io/weather-dashboard/",
       github: "https://github.com/FaithsCoding/weather-dashboard",
     },
     {
       title: "Just Another Text Editor (JATE)",
-      description: "This was an app created for our second group project.",
+      description:
+        "I created this app for one of my individual assignments. This assignment came with starter code which challenged me to understand how someone else had applied their logic and adapt to it to enable to functionality.",
       imageUrl: projectImage5,
       url: "https://faiths-jate-8803879369c0.herokuapp.com/",
       github: "https://github.com/FaithsCoding/text-editor",
     },
     {
       title: "Password Generator",
-      description: "This was an app created for one of my assignments.",
+      description:
+        "I created the password generator as one of my individual assignments. When using this generator you will notice some room for improvement, however I wanted to leave this in my porfolio as developing this app taught me a lot about how data works and some of the best practices to use when developing.",
       imageUrl: projectImage6,
       url: "https://faithscoding.github.io/developing-a-password-generator/",
       github: "https://github.com/FaithsCoding/developing-a-password-generator",
@@ -77,10 +83,13 @@ export const Projects = () => {
           <Col>
             <h2 style={{ textAlign: "center" }}>Projects</h2>
             <p style={{ textAlign: "center" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I have always been a team player in the workplace and the bootcamp
+              has only re-encforced those qualities. I have loved getting to
+              know my peers and learning from each other has been such a
+              positive experience.
+              <br />
+              Below is some of both my group projects and my individual
+              challenges that I have completed.
             </p>
           </Col>
         </Row>
