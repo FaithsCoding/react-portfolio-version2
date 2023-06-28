@@ -29,6 +29,9 @@ You can test this application by clicking through each element and ensuring it g
 
 ## Demo
 
+[React Portfolio Brief Video](https://youtu.be/TFvMo6GZW2g)
+
+![Screenshot](public/assets/screenshot-readme.png)
 
 ## Contributing
 

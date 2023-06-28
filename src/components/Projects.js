@@ -124,7 +124,7 @@ export const Projects = () => {
                     </Button>
                     <Button
                       variant="primary"
-                      href={project.url}
+                      href={project.github}
                       target="_blank"
                       style={{
                         backgroundColor: "#5439BB",
