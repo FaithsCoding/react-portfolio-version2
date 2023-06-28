@@ -27,7 +27,7 @@ export const AboutMe = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="aboutme">
       <Container>
         <Row>
           <Col md={12}>

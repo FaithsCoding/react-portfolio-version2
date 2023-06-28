@@ -3,7 +3,8 @@ import { Container } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 const Resume = () => {
-  const resumeUrl = "/assets/resume/Faith_Meades_CV.pdf";
+  const resumeUrl =
+    process.env.PUBLIC_URL + "/assets/resume/Faith_Meades_CV.pdf";
 
   return (
     <section className="resume">

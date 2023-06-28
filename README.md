@@ -11,6 +11,7 @@ This is a single page application that has been created for my week 20 assignmen
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
+- [Demo] (#Demo)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
@@ -25,6 +26,9 @@ You use this application by clicking each element in the nav bar and checking it
 ## Tests
 
 You can test this application by clicking through each element and ensuring it goes to the correct places, you should also receieve an error message if you leave out information required on the form. You can also ensure that all links for the projects work.
+
+## Demo
+
 
 ## Contributing
 

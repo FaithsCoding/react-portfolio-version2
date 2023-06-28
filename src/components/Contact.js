@@ -8,7 +8,9 @@ const Contact = () => {
   const validationSchema = Yup.object().shape({
     firstName: Yup.string().required("First name is required"),
     lastName: Yup.string().required("Last name is required"),
-    email: Yup.string().email("Invalid email address").required("Email is required"),
+    email: Yup.string()
+      .email("Invalid email address")
+      .required("Email is required"),
     phone: Yup.string().required("Phone number is required"),
     message: Yup.string().required("Message is required"),
   });
@@ -19,9 +21,9 @@ const Contact = () => {
       setSubmitting(false);
     }, 400);
   };
- 
+
   return (
-    <section className="contact">
+    <section className="contact" id="contactme">
       <Container>
         <Row>
           <Col md={6} className="d-flex align-items-center">
@@ -148,6 +150,5 @@ const Contact = () => {
     </section>
   );
 };
-
 
 export default Contact;
