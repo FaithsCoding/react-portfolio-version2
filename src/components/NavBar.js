@@ -45,9 +45,7 @@ export const NavBar = () => {
               <Nav.Link
                 as={HashLink}
                 to="/#home"
-                className={`nav-link ${
-                  activeLink === "home" ? "active" : ""
-                }`}
+                className={`nav-link ${activeLink === "home" ? "active" : ""}`}
                 onClick={() => onUpdateActiveLink("home")}
               >
                 Home
@@ -92,7 +90,10 @@ export const NavBar = () => {
                   <img src={navIcon2} alt="" />
                 </a>
                 <a href="">
-                  <img src={navIcon3} alt="" />
+                  <img
+                    src={navIcon3}
+                    alt="https://www.instagram.com/designerrprojects/?hl=en-gb"
+                  />
                 </a>
               </div>
             </span>
