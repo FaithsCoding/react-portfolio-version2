@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
@@ -33,7 +34,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -42,43 +43,41 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
-                href="#home"
-                className={
-                  activeLink === "home" ? "active navbar-link" : "navbar-link"
-                }
+                as={HashLink}
+                to="/#home"
+                className={`nav-link ${
+                  activeLink === "home" ? "active" : ""
+                }`}
                 onClick={() => onUpdateActiveLink("home")}
               >
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#aboutme"
-                className={
-                  activeLink === "aboutme"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
+                as={HashLink}
+                to="/#aboutme"
+                className={`nav-link ${
+                  activeLink === "aboutme" ? "active" : ""
+                }`}
                 onClick={() => onUpdateActiveLink("aboutme")}
               >
                 About Me
               </Nav.Link>
               <Nav.Link
-                href="#projects"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
+                as={HashLink}
+                to="/#projects"
+                className={`nav-link ${
+                  activeLink === "projects" ? "active" : ""
+                }`}
                 onClick={() => onUpdateActiveLink("projects")}
               >
                 Projects
               </Nav.Link>
               <Nav.Link
-                href="#contactme"
-                className={
-                  activeLink === "contactme"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
+                as={HashLink}
+                to="/#contactme"
+                className={`nav-link ${
+                  activeLink === "contactme" ? "active" : ""
+                }`}
                 onClick={() => onUpdateActiveLink("contactme")}
               >
                 Contact Me
