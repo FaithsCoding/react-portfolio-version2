@@ -29,7 +29,8 @@ You can test this application by clicking through each element and ensuring it g
 
 ## Demo
 
-[React Portfolio Brief Video](https://youtu.be/TFvMo6GZW2g)
+- [React Portfolio Brief Video](https://youtu.be/TFvMo6GZW2g)
+- [Deployed Site](https://faithscoding.github.io/react-portfolio-version2/)
 
 ![Screenshot](public/assets/screenshot-readme.png)
 
